@@ -11,8 +11,7 @@ const inter = Inter({ subsets: ["latin"], display: "swap" });
 
 export const metadata: Metadata = {
   title: "Ministry Brands - Marketing Intelligence",
-  description:
-    "",
+  description: "ML-powered analytics dashboard for marketing intelligence",
 };
 
 export default function RootLayout({ children }: PropsWithChildren) {

@@ -93,3 +93,16 @@ export interface Transaction {
   amount: number;
   status: string;
 }
+
+export interface MLPrediction {
+  leadScore: number;
+  confidence: number;
+  factors: string[];
+}
+
+export interface AnalyticsMetrics {
+  predictions: MLPrediction[];
+  realtimeUsers: number;
+  conversionRate: number;
+  averageEngagement: number;
+}

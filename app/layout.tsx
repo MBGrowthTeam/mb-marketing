@@ -10,8 +10,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"], display: "swap" });
 
 export const metadata: Metadata = {
-  title: "Ministry Brands - Marketing Intelligence",
-  description: "ML-powered analytics dashboard for marketing intelligence",
+  title: "Ministry Brands - AI Marketing Intelligence",
+  description: "Advanced ML-powered analytics dashboard for marketing intelligence and predictive insights",
 };
 
 export default function RootLayout({ children }: PropsWithChildren) {

@@ -1,0 +1,104 @@
+# Python Specific
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+*.swo
+*.egg-info/
+*.eggs/
+*.sqlite3
+*.log
+.DS_Store
+env/
+venv/
+.venv/
+pip-log.txt
+pytest_cache/
+.next/
+.tox/
+coverage/
+htmlcov/
+.mypy_cache/
+.pytest_cache/
+.pytest_cache/*
+.pyre/
+.ipynb_checkpoints/
+.aider*
+aider_env/
+
+# Django Specific (if applicable)
+*.db
+*.pot
+*.py[cod]
+*.mo
+local_settings.py
+db.sqlite3
+
+# Node.js Specific
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Tailwind CSS Specific
+tailwind.config.js
+tailwind.config.cjs
+tailwind.config.ts
+
+# React/TypeScript Specific
+build/
+dist/
+*.cache
+.cache/
+*.tsbuildinfo
+
+# IDE and Editor Specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Miscellaneous
+*.env
+.env.*
+!.env.example
+coverage/
+*.out
+*.lock
+summary.zsh
+ml_analytics_dashboard_summary.txt
+
+# Google Cloud Credentials and Config
+credentials/*.json
+!credentials/README.md  # Include the README for context
+
+# Temporary Files
+*.bak
+*.tmp
+*.temp
+
+# Linting and Formatting
+*.eslintcache
+.prettiercache
+
+# Logs
+logs/
+*.log
+
+# Dependency Folders
+.pnpm-debug.log
+.pipenv/
+
+# Docker
+docker-compose.override.yml
+*.env.local
+
+# CI/CD
+*.coverage
+.nyc_output/
+.idea/
+
+# Custom Generated Artifacts (if any)
+artifacts/
